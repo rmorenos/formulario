@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Servicio de recopilación de datos</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="container">
+    <form action="" class="form">
+        <div class="form-header">
+            <h1 class="form-title">C<span>ontacto</span></h1>
+        </div>
+
+        <label for="nombre" class="form-label">Nombres</label>
+        <input type="text" class="form-input" id="nombre" placeholder="Escriba su Nombre">
+
+        <label for="apellido" class="form-label">Apellidos</label>
+        <input type="text" class="form-input" id="apellido" placeholder="Escriba sus Apellidos">
+
+        <p>Sexo:
+            <input type="radio" name="hm" value="h"> Hombre
+            <input type="radio" name="hm" value="m"> Mujer
+        </p>
+
+        Tu edad:   <input type="text" name="edad" id="edad" value="" size="2" maxlength="2"><br>
+        <div id="hobbit" class="hobbit-div">
+            Intereses:<br>
+            <p class="hobbit" >
+                <input type="checkbox" name="cb-autos" value="gusta"> Autos<br>
+
+                <input type="checkbox" name="cb-deportes" value="gusta"> Deportes<br>
+
+                <input type="checkbox" name="cb-videojuegos" value="gusta"> Videojuegos
+
+            </p>
+            <p class="hobbit" >
+                <input type="checkbox" name="cb-autos" value="gusta"> Correr<br>
+
+                <input type="checkbox" name="cb-deportes" value="gusta"> Montar a Caballo<br>
+
+                <input type="checkbox" name="cb-videojuegos" value="gusta"> Montar Bici
+
+            </p>
+            <p class="hobbit" >
+                <input type="checkbox" name="cb-autos" value="gusta"> Hacer Montaña<br>
+
+                <input type="checkbox" name="cb-deportes" value="gusta"> Tecnología<br>
+
+                <input type="checkbox" name="cb-videojuegos" value="gusta"> Grupos de Amigos
+
+            </p>
+            <p class="hobbit" >
+                <input type="checkbox" name="cb-autos" value="gusta">Programar<br>
+
+                <input type="checkbox" name="cb-deportes" value="gusta"> Diseñar<br>
+
+                <input type="checkbox" name="cb-videojuegos" value="gusta"> Arquitectura
+
+            </p>
+
+        </div>
+
+
+
+
+        <input type="submit" class="form-submit"  id="submit" placeholder="Enviar Consulta">
+
+        <pre class="text-pre">Las cosas que necesitarás están listadas aquí:
+
+        </pre>
+
+    </form>
+</div>
+<script src="js/enviar.js"></script>
+<script src="js/object.js"></script>
+
+</body>
+</html>
